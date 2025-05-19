@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Cidade {
+public class PermissaoUsuario {
     private UUID id;
     private String nome;
-    private Estado estado;
+    private String descricao;
 }
