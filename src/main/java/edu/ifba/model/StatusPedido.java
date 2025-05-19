@@ -1,5 +1,5 @@
 package edu.ifba.model;
 
 public enum StatusPedido {
-    CARRINHO, CRIADO, CONFIRMADO,
+    CARRINHO, CRIADO, CONFIRMADO, ENTREGUE, CANCELADO;
 }
