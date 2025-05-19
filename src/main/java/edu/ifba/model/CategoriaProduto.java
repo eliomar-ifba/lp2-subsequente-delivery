@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class GrupoUsuario {
+public class CategoriaProduto {
     private UUID id;
     private String nome;
-    private List<PermissaoUsuario> permissoes;
+    private String descricao;
+    private List<Produto> produtos;
 }
