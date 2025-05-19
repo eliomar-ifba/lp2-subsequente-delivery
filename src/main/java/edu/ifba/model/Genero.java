@@ -1,5 +1,6 @@
 package edu.ifba.model;
 
-public class Genero {
+public enum Genero {
+    MASCULINO, FEMININO, OUTROS;
 
 }

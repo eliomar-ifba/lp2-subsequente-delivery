@@ -1,5 +1,7 @@
 package edu.ifba.model;
 
+import java.util.UUID;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,11 +11,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Endereco {
-private String logradouro;
-private String cep;
-private String numero;
-private String bairro;
-private String complemento;
-private Cidade cidade;
+
+public class Cidade {
+private UUID id;
+private String nome;
+private Estado estado;
 }
