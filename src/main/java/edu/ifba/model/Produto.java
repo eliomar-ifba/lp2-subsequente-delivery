@@ -23,4 +23,5 @@ public class Produto {
     private List<String> tags;
     private List<FotoProduto> fotos;
     private List<CategoriaProduto> categorias;
+    private Loja loja;
 }

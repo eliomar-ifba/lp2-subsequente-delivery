@@ -28,6 +28,5 @@ public class Pedido {
     private Usuario cliente;
     private Loja loja;
     private FormaPagamento formaPagamento;
-    private List<ItemPedido> intens;
-    
+    private List<ItemPedido> itens;    
 }

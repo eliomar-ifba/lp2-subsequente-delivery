@@ -16,5 +16,5 @@ public class ItemPedido {
     private BigDecimal valorTotal;
     private String observacao;
     private Produto produto;
-    
+    private ItemPedido pedido;  
 }

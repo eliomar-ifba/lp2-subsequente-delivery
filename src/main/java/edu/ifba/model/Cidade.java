@@ -15,5 +15,4 @@ public class Cidade {
     private UUID id;
     private String nome;
     private Estado estado;
-    
 }

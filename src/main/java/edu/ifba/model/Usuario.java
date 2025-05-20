@@ -29,5 +29,5 @@ public class Usuario {
     private Endereco enderecoPrincipal;
     private List<Endereco> enderecos;
     private List<GrupoUsuario> grupos;
-    
+    private List<Pedido> pedidos;   
 }

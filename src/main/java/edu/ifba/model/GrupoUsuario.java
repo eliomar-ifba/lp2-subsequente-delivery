@@ -15,6 +15,5 @@ import lombok.Setter;
 public class GrupoUsuario {
     private UUID id;
     private String nome;
-    private List<PermissaoUsuario> permissoes;
-    
+    private List<PermissaoUsuario> permissoes;  
 }

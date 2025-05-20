@@ -15,6 +15,5 @@ public class FotoProduto {
     private UUID id;
     private String titulo;
     private String descricao;
-    private String url;
-    
+    private String url;   
 }

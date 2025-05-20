@@ -13,7 +13,5 @@ import lombok.Setter;
 @Setter
 public class Estado {
     private UUID id;
-    private String nome;
-    
-    
+    private String nome;   
 }
