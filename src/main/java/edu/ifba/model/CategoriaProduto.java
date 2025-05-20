@@ -4,14 +4,13 @@ import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
+
 public class CategoriaProduto {
     private UUID id;
     private String nome;

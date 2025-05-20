@@ -3,18 +3,20 @@ package edu.ifba.model;
 import java.math.BigDecimal;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
+
 public class ItemPedido {
     private Integer quantidade;
     private BigDecimal valorTotal;
     private String observacao;
     private Produto produto;
-    private Pedido pedido;  
+
+    private Pedido pedido;
+
 }

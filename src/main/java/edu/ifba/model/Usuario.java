@@ -6,14 +6,14 @@ import java.util.Map;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
+
 public class Usuario {
     private UUID id;
     private String nomeCompleto;
@@ -24,10 +24,13 @@ public class Usuario {
     private LocalDateTime dataCadastro;
     private LocalDateTime nascimento;
     private Map<String, String> contatos;
-    private String urlFotos;
-    private Genero genero;
+
+    private String urlFoto;
     private Endereco enderecoPrincipal;
     private List<Endereco> enderecos;
+    private Genero genero;
     private List<GrupoUsuario> grupos;
-    private List<Pedido> pedidos;   
+    private List<Pedido> pedidos;
+
+
 }

@@ -8,14 +8,14 @@ import java.util.Map;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
+
 public class Loja {
     private UUID id;
     private String nome;
@@ -26,13 +26,16 @@ public class Loja {
     private Boolean ativo;
     private Boolean aceitaRetirada;
     private BigDecimal taxaDelivery;
-    private Integer tempoMinimoentrega;
+
+    private Integer tempoMinimoEntrega;
+
     private Integer tempoMaximoEntrega;
     private Map<String, String> contatos;
     private Map<String, String> redes;
     private String urlFotoBanner;
-    private List<Produto> produtos;
+    private Usuario responsaveis;
     private List<FormaPagamento> formasPagamento;
-    private List<Usuario> responsaveis;
+    private List<Produto> produtos;
+
     private Endereco endereco;
 }

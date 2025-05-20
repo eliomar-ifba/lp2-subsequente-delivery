@@ -4,16 +4,16 @@ import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
 public class GrupoUsuario {
     private UUID id;
     private String nome;
-    private List<PermissaoUsuario> permissoes;  
+    private List<PermissaoUsuario> permissoes;
+
 }

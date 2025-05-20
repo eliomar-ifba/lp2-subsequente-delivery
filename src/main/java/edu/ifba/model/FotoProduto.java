@@ -3,17 +3,18 @@ package edu.ifba.model;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
+
 public class FotoProduto {
     private UUID id;
     private String titulo;
     private String descricao;
-    private String url;   
+
+    private String url;
+
 }
