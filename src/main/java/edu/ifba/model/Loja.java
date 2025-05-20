@@ -3,6 +3,7 @@ package edu.ifba.model;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
@@ -30,6 +31,8 @@ public class Loja {
     private Map<String, String> contatos;
     private Map<String, String> redes;
     private String urlFotoBanner;
-    
-
+    private List<Produto> produtos;
+    private List<FormaPagamento> formasPagamento;
+    private List<Usuario> responsaveis;
+    private Endereco endereco;
 }

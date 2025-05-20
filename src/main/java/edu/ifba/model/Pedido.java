@@ -2,6 +2,7 @@ package edu.ifba.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
@@ -23,7 +24,10 @@ public class Pedido {
     private LocalDateTime dataUltimaAtualizacao;
     private StatusPedido statusPedido;
     private FormaEntrega formaEntrega;
-
-
+    private Endereco enderecoEntrega;
+    private Usuario cliente;
+    private Loja loja;
+    private FormaPagamento formaPagamento;
+    private List<ItemPedido> intens;
     
 }

@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ItemProduto {
+public class ItemPedido {
     private Integer quantidade;
     private BigDecimal valorTotal;
     private String observacao;
