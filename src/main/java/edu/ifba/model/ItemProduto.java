@@ -1,6 +1,6 @@
 package edu.ifba.model;
 
-import java.util.UUID;
+import java.math.BigDecimal;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,10 +11,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class FotoProduto {
-    private UUID id;
-    private String titulo;
-    private String descricao;
-    private String url;
+public class ItemProduto {
+    private Integer quantidade;
+    private BigDecimal valorTotal;
+    private String observacao;
+    private Produto produto;
     
 }

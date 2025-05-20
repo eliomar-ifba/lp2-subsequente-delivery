@@ -11,10 +11,9 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class FotoProduto {
+public class CategoriaProduto {
     private UUID id;
-    private String titulo;
+    private String nome;
     private String descricao;
-    private String url;
     
 }
