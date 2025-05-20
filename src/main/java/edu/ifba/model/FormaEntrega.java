@@ -1,5 +1,6 @@
 package edu.ifba.model;
 
-public class FormaEntrega {
+public enum FormaEntrega {
+RETIRADA, DELIVERY;
 
 }

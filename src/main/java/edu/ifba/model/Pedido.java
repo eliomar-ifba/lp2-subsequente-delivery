@@ -20,7 +20,7 @@ private String codigo;
 private BigDecimal subTotal;
 private BigDecimal taxaDelivery;
 private BigDecimal valorTotal;
-private LocalDateTime dataCriacao;
+private LocalDateTime dataDescricao;
 private LocalDateTime dataUltimaAtualizacao;
 private StatusPedido statusPedido;
 private Endereco enderecoEntrega;
@@ -29,4 +29,5 @@ private Usuario cliente;
 private List<ItemPedido> itens;
 private FormaPagamento formaPagamento;
 private Loja loja;
+
 }
