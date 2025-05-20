@@ -8,12 +8,14 @@ import java.util.Map;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+
 public class Loja {
     private UUID id;
     private String nome;
@@ -24,7 +26,9 @@ public class Loja {
     private Boolean ativo;
     private Boolean aceitaRetirada;
     private BigDecimal taxaDelivery;
+
     private Integer tempoMinimoEntrega;
+
     private Integer tempoMaximoEntrega;
     private Map<String, String> contatos;
     private Map<String, String> redes;
@@ -32,5 +36,6 @@ public class Loja {
     private Usuario responsaveis;
     private List<FormaPagamento> formasPagamento;
     private List<Produto> produtos;
+
     private Endereco endereco;
 }
