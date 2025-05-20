@@ -12,10 +12,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class GrupoUsuario {
-    private UUID id;
-    private String nome;
-    private List<Usuario> grupos;
-   
-
+public class CategoriaProduto {
+    private UUID Id;
+    private String Nome;
+    private String descricao;
+    private List<Produto> produtos;
+    
 }

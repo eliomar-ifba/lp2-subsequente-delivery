@@ -7,15 +7,13 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class GrupoUsuario {
+public class PermissoesUsuario {
     private UUID id;
-    private String nome;
-    private List<Usuario> grupos;
-   
-
+    private  String nome;
+    private String descricao;
+    private List<GrupoUsuario> permissoes;
 }
